@@ -33,6 +33,9 @@ namespace Parcial3_Base
 
     internal class MatrixOperator
     {
+        private int i;
+        private int j;
+
         /// <summary>
         /// Suma las matrices parámetro.
         /// Valor del punto: 1.0 / 5.0
@@ -46,12 +49,17 @@ namespace Parcial3_Base
 
             if (result != null)
             {
-                result.PrintMatrixValues();
-            }
+                for (i = 0; i < matrixA.GetLength(0); i++)
+                {
+                    for (j = 0; j < matrixB.GetLength(1); j++)
+                        result.PrintMatrixValues();
 
+                }
+                int[,] matrixC = new int[i, j];
+                result = matrixC;
+            }
             return result;
         }
-
         /// <summary>
         /// Multiplica una matriz por un escalar
         /// Valor del punto: 1.0/ 5.0
@@ -65,12 +73,19 @@ namespace Parcial3_Base
 
             if (result != null)
             {
+                for (i = 0; i < matrix.GetLength(0); i++)
+                {
+                    for (j = 0; j < scalar; i++)
+                    { }
+                }
+            
                 result.PrintMatrixValues();
+
             }
 
             return result;
         }
-
+    
         /// <summary>
         /// Multiplica dos matrices parámetro
         /// Valor del punto: 2.0 / 5.0
@@ -84,6 +99,12 @@ namespace Parcial3_Base
 
             if (result != null)
             {
+                for (i = 0; i < matrixA.GetLength(0); i++)
+                {
+                    for (j = 0; j < matrixB.GetLength(1); j++)
+                        result.PrintMatrixValues();
+
+                }
                 result.PrintMatrixValues();
             }
 
