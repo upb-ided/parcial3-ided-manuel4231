@@ -1,0 +1,23 @@
+Punto 1(AddMatrix)
+* La matriz 'result' nunca deja de ser nula antes de que el código ejecute.
+* No se valida que las operaciones sean operables.
+* Lo único que hace el algoritmo, si se diera un caso en que se pudiera ejecutar, sería imprimir los valores de una matriz 'result' que nunca deja de ser nula.
+* La asignación 'result = matrixC' es incorrecta. De dónde sale esa 'matrixC'?
+Total: 0.2 / 1.0
+
+Punto 2(MultiplyMatrixByScalar)
+* La matriz 'result' nunca deja de ser nula antes de que el código ejecute.
+* La iteración sobre 'scalar' no es correcta, dado que 'scalar' es un entero. Y la otra dimensión de la matriz?
+* El algoritmo no hace nada.
+Total: 0.2 / 1.0
+
+Punto 3(MultiplyMatrices)
+* La matriz 'result' nunca deja de ser nula antes de que el código ejecute.
+* Lo único que hace el algoritmo es imprimir los valores de una matriz que nunca deja de ser nula.
+Total: 0.2 / 2.0
+
+Punto 4(MixMatrix)
+* No presenta solución.
+Total: 0.0 / 1.0
+
+Total evaluación: 0.6 / 5.0
